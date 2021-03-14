@@ -1,6 +1,5 @@
 import requests
 
-
 class Base:
     def __init__(self):
         #获取token

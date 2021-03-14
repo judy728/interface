@@ -1,6 +1,5 @@
 from test_request.api.base import Base
 
-
 class Address(Base):
 
     def add_member(self, userid: str, name: str, mobile: str, department: list, **kwargs):

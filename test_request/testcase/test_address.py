@@ -1,7 +1,6 @@
 import pytest
 from test_request.api.address import Address
 
-
 class TestAddress:
     def setup(self):
         self.address = Address()
