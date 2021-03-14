@@ -1,5 +1,4 @@
 import pytest
-
 from test_request.api.address import Address
 
 

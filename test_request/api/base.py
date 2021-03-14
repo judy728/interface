@@ -4,7 +4,7 @@ import requests
 class Base:
     def __init__(self):
         #获取token
-        url = "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=ww1cdd06e&corpsecret=R4kEw78I08u9ZQkWQbFOSqgQXYi8TZAXaOrigGVN5sA"
+        url = "https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=ww1fb02de4d1cdd06e&corpsecret=R4kEw78I08u9ZQkWQbFOSqgQXYi8TZAXaOrigGVN5sA"
         r = requests.get(url).json()
         self.token = r['access_token']
         #声明一个Session

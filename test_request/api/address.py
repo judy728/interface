@@ -1,5 +1,3 @@
-import requests
-
 from test_request.api.base import Base
 
 
